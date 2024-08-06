@@ -36,10 +36,8 @@
     - React DOM is a package that specifically handles the integration of React with DOM. It acts as bridge between REACT and BROWSER. It provide different methods for different purpose from which render() is one of the method to render any react element in any specific DOM element.
 
 - What is difference between react.development.js and react.production.js files via CDN? <br/>
-  `react.development.js`
-        - This file's includes more warnings and error messages to help developer identify and fix issues. Its size is larger than the production file and it is optimised for providing the more detailed information.
-  `react.production.js`
-        - This file includes the minified code which doesn't contain the warning and error messages. Its size smaller and tuned for production use for better performance.
+  `react.development.js` - This file's includes more warnings and error messages to help developer identify and fix issues. Its size is larger than the production file and it is optimised for providing the more detailed information. <br/>
+  `react.production.js` - This file includes the minified code which doesn't contain the warning and error messages. Its size smaller and tuned for production use for better performance.
 
 - What is async and defer?  <br/>
     Both are boolean attributes which are used in script tags to load the external scripts efficiently into our web page.
