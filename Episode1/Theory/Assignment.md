@@ -6,11 +6,11 @@
 
 - Difference b/w Library & Framework
     - Library & Framework both are collections of pre-written code that developers ise to speed up the process of software development but purpose os different.
-    LIBRARY
+   `LIBRARY`
         - Dev has the control over the flow
         - More Flexible and allowing selective usage.
         - Ex: React
-    FRAMEWORK
+    `FRAMEWORK`
         - It controls the overall flow of application.
         - Its more rigid and strict convention & guidelines.
         - Ex: Angular
