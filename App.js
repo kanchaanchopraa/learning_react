@@ -13,9 +13,9 @@ suppose we have to create nested div and how we are going to do it using react.c
         <h2>Hello I am h1 tag inside child 1</h2> //now here its sibling more than one child inside child1 div.
     </div>
 </div>
-
 */
 
+// React.createElement Nested Elements
 const parent = React.createElement(
     "div",
     {id: "parent"},
@@ -36,11 +36,16 @@ const parent = React.createElement(
     ]
 )
 
+// react.createElement
 const heading = React.createElement(
     "h1", 
     {id: "heading", data: "headingH1"}, 
     "Hello World from React!");
 console.log(heading); //it will return the object and not the actual H1. This is not yet the h1 tag of html - this is only the javascript object or you can react element.
 
+// JSX
+const jsxHeading = <h2 id="heading"> hello I am JSX Heading</h2>;
+console.log(jsxHeading);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(parent); // when we pass here the heading(which is react element else the object - then this render method is responsible for creating the HTML element which is h1)
+root.render(jsxHeading); // when we pass here the heading(which is react element else the object - then this render method is responsible for creating the HTML element which is h1)
