@@ -1,3 +1,19 @@
+*, body{
+    margin: 0;
+    font-family: Futura Bold;
+}
+input{
+    margin: 0;
+    outline: 0;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    min-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    width: 100%;
+}
 #root{
     color:green;
 }
