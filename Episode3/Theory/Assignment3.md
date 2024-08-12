@@ -15,7 +15,7 @@
    ```javascript
    const title = <h1> Hi I am JSX title </h1>;
 
-3. **Difference between the following: {TitleComponent} vs <TitleComponent /> vs <TitleComponent> </TitleComponent>**
+3. **Difference between the following**
 
     - {TitleComponent} - This value describes that TitleComponent is a JS variable and it's called using curly braces inside HTML elements. {} is used to add JS expressions or variables in it.
 
@@ -30,4 +30,4 @@
         // component code here
     };
 
-    This TitleComponent can be called in all 3 ways mentioned and explained above.
+    **This TitleComponent can be called in all 3 ways mentioned and explained above.**
